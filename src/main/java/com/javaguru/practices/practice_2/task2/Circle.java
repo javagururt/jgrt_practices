@@ -13,14 +13,11 @@ class Circle {
     Необходимо добавить состояние
      */
 
-    double radius;
-
     /*
     Необходимо дополнить конструктор класса так, чтобы при создании
     объекта менялось его состояние
      */
     public Circle(double radius) {
-        this.radius = radius;
     }
 
 
@@ -31,6 +28,6 @@ class Circle {
     таким образом, чтобы основываясь на состоянии можно было подсчитать площадь
      */
     double getArea() {
-        return Math.PI * Math.pow(radius, 2);
+        return 0;
     }
 }
