@@ -30,7 +30,7 @@ public class ArrayUtilsTest {
     }
 
     @Test
-    public void shouldFindMinEven() {
+    public void shouldFindLongestWord() {
         String[] array = new String[]{"A", "AB", "ABC", "ABCD"};
         String[] array2 = new String[]{"AAA", "BBB", "AAAAAA", "DDDD"};
         String[] array3 = new String[1];

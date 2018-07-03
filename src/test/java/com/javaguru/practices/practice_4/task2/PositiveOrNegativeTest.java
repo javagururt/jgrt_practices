@@ -7,19 +7,19 @@ import static org.junit.Assert.assertEquals;
 public class PositiveOrNegativeTest {
 
     @Test
-    public void shouldBePositive() throws Exception {
+    public void shouldBePositive() {
         PositiveOrNegative positiveOrNegative = new PositiveOrNegative();
         assertEquals("Positive", positiveOrNegative.getPositiveOrNegative(10));
     }
 
     @Test
-    public void shouldBeNegative() throws Exception {
+    public void shouldBeNegative() {
         PositiveOrNegative positiveOrNegative = new PositiveOrNegative();
         assertEquals("Negative", positiveOrNegative.getPositiveOrNegative(-10));
     }
 
     @Test
-    public void shouldBeZero() throws Exception {
+    public void shouldBeZero() {
         PositiveOrNegative positiveOrNegative = new PositiveOrNegative();
         assertEquals("Zero", positiveOrNegative.getPositiveOrNegative(0));
     }

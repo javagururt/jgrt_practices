@@ -9,13 +9,15 @@ package com.javaguru.practices.practice_9;
  */
 class Square extends Shape {
 
+    private double side;
+
     @Override
     double getArea() {
-        return 0;
+        return side * side;
     }
 
     @Override
     double getPerimeter() {
-        return 0;
+        return side * 4;
     }
 }

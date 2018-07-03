@@ -10,11 +10,7 @@ class ArrayUtils {
      */
 
     public static double findAverageInArray(int[] array) {
-        int sum = 0;
-        for (int anArray : array) {
-            sum += anArray;
-        }
-        return (double) sum / array.length;
+        return 0;
     }
 
     /**
@@ -25,13 +21,7 @@ class ArrayUtils {
      */
 
     public static int findMaxInArray(int[] array) {
-        int max = array[0];
-        for (int anArray : array) {
-            if (anArray > max) {
-                max = anArray;
-            }
-        }
-        return max;
+        return 0;
     }
 
     /**
@@ -44,15 +34,7 @@ class ArrayUtils {
      */
 
     public static String findLongestWord(String[] array) {
-        String max = "";
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] != null) {
-                if (array[i].length() > max.length()) {
-                    max = array[i];
-                }
-            }
-        }
-        return max;
+        return null;
     }
 
 }

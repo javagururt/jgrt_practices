@@ -5,15 +5,11 @@ import java.util.Random;
 class CreatingArrays {
 
     /**
-     * Необходимо создать массив на n элементов и заполнить случайными числами от 10 до 20 (включительно)
+     * Необходимо создать массив для n элементов и заполнить случайными числами от 10 до 20 (включительно)
      */
 
     Integer[] integerArray(int n) {
-        Integer[] array = new Integer[n];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = new Random().nextInt(11) + 10;
-        }
-        return array;
+        return null;
     }
 
     /**
@@ -30,11 +26,6 @@ class CreatingArrays {
      */
 
     String[] stringArray() {
-        String[] strings = new String[26];
-        for (int i = 0, j = 65; i < strings.length && j <= 90; i++, j++) {
-            char c = (char) j;
-            strings[i] = String.valueOf(c);
-        }
-        return strings;
+        return null;
     }
 }

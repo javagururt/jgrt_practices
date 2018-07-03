@@ -11,6 +11,6 @@ class PositiveOrNegative {
      */
 
     String getPositiveOrNegative(int number) {
-        return "";
+        return null;
     }
 }

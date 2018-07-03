@@ -11,20 +11,6 @@ class SwapElementInArray {
      */
 
     Integer[] swapFirstAndMaxElement(Integer[] array) {
-        if (array == null || array.length == 0) {
-            return array;
-        }
-        Integer max = array[0];
-        int maxIndex = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (max < array[i]) {
-                max = array[i];
-                maxIndex = i;
-            }
-        }
-        int tmp = array[0];
-        array[0] = array[maxIndex];
-        array[maxIndex] = tmp;
-        return array;
+        return null;
     }
 }
