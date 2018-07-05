@@ -15,26 +15,14 @@ class UniqueWordsVocabulary {
     Необходимо создать поле класса, которое будет являться хранилишем
     слов (т.е куда будут записываться слова и количество повторений)
      */
-    private Map<String, Integer> uniqueWordsWithCount;
 
     /*
     Необходимо дополнить метод getUniqueWordsWithCount таким образом,
     чтобы он возвращал текущую коллекцию класса UniqueWordsVocabulary
      */
-    public Map<String, Integer> getUniqueWordsWithCount() {
-        return uniqueWordsWithCount;
-    }
 
     /*
     Необходимо дополнить метод addWord таким образом, чтобы при вызове данного метода
     в созданную ранее коллекцию добавлялись слов. В случае повторений - увеличивался счетчик
      */
-    void addWord(String word) {
-        if (uniqueWordsWithCount.containsKey(word)) {
-            int count = uniqueWordsWithCount.get(word);
-            uniqueWordsWithCount.put(word, ++count);
-        } else {
-            uniqueWordsWithCount.put(word, 0);
-        }
-    }
 }
