@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class HumanTest {
 
     @Test
-    public void shouldCreateHumansWithNameAndAge() throws Exception {
+    public void human() {
         Human firstHuman = new Human("Vasya", 30);
         Human secondHuman = new Human("Bob", 20);
 

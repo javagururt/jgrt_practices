@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class MaxOfTwoTest {
 
     @Test
-    public void shouldGetMaxOfTwo() throws Exception {
+    public void getMaxOfTwo() {
         MaxOfTwo maxOfTwo = new MaxOfTwo();
         assertEquals(10, maxOfTwo.getMaxOfTwo(10, 5));
         assertEquals(-1, maxOfTwo.getMaxOfTwo(-1, -5));

@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class PowerCalculatorTest {
 
     @Test
-    public void shouldCalculatePow() throws Exception {
+    public void pow() {
         PowerCalculator pc = new PowerCalculator();
         assertEquals(Math.pow(2, 3), pc.pow(2, 3), 0.1);
         assertEquals(Math.pow(0, 3), pc.pow(0, 3), 0.1);

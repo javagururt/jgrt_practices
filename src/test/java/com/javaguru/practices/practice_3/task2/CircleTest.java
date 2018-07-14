@@ -6,9 +6,8 @@ import static org.junit.Assert.*;
 
 public class CircleTest {
 
-
     @Test
-    public void shouldCalculateArea() throws Exception {
+    public void calculateArea() {
         Circle firstCircle = new Circle(10);
         Circle secondCircle = new Circle(15);
         assertEquals(314.16, firstCircle.calculateArea(), 0.1);

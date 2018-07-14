@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class ArrayUtilsTest {
 
     @Test
-    public void shouldFindAverage() {
+    public void findAverageInArray() {
         int[] array = new int[]{1, 2, 3, 4, 5, 5, 4, 3, 2, 1, 9};
         int[] array2 = new int[]{2, -4, 3, 1, 23, 44, 32, 10};
         int[] array3 = new int[]{12, 13, 14, 3, 50, 13, 13};
@@ -18,7 +18,7 @@ public class ArrayUtilsTest {
     }
 
     @Test
-    public void shouldFindMax() {
+    public void findMaxInArray() {
         int[] array = new int[]{1, 2, 3, 4, 5, 5, 4, 3, 2, 1, 9};
         int[] array2 = new int[]{2, -4, 3, 1, 23, 44, 32, 10};
         int[] array3 = new int[]{12, 13, 14, 3, 50, 13, 13};
@@ -30,7 +30,7 @@ public class ArrayUtilsTest {
     }
 
     @Test
-    public void shouldFindLongestWord() {
+    public void findLongestWord() {
         String[] array = new String[]{"A", "AB", "ABC", "ABCD"};
         String[] array2 = new String[]{"AAA", "BBB", "AAAAAA", "DDDD"};
         String[] array3 = new String[1];

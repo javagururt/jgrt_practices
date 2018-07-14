@@ -7,14 +7,10 @@ import static org.junit.Assert.assertEquals;
 public class SumInRangeTest {
 
     @Test
-    public void shouldSumFromZeroToOneHundred() throws Exception {
+    public void sum() {
         SumInRange sumInRange = new SumInRange();
         assertEquals(5050, sumInRange.sum(0, 100));
-    }
-
-    @Test
-    public void shouldSumFromZeroToTen() throws Exception {
-        SumInRange sumInRange = new SumInRange();
         assertEquals(55, sumInRange.sum(0, 10));
     }
+
 }

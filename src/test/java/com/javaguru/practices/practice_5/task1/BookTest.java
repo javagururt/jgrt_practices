@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class BookTest {
 
     @Test
-    public void shouldAddGettersAndSetters() throws Exception {
+    public void gettersAndSetters() throws Exception {
         Book book = new Book();
         Method setAuthor = book.getClass().getDeclaredMethod("setAuthor", String.class);
         Method setTitle = book.getClass().getDeclaredMethod("setTitle", String.class);
@@ -20,7 +20,7 @@ public class BookTest {
     }
 
     @Test
-    public void shouldOverrideToString() throws Exception {
+    public void overrideToString() throws Exception {
         Book book = new Book();
 
         Method setAuthor = book.getClass().getDeclaredMethod("setAuthor", String.class);
@@ -35,7 +35,7 @@ public class BookTest {
     }
 
     @Test
-    public void shouldOverrideEquals() throws Exception {
+    public void overrideEquals() throws Exception {
         Book book = new Book();
         Method setAuthor = book.getClass().getDeclaredMethod("setAuthor", String.class);
         Method setTitle = book.getClass().getDeclaredMethod("setTitle", String.class);

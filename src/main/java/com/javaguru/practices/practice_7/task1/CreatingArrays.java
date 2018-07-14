@@ -1,7 +1,5 @@
 package com.javaguru.practices.practice_7.task1;
 
-import java.util.Random;
-
 class CreatingArrays {
 
     /**

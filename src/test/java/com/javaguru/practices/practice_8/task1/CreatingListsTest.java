@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 public class CreatingListsTest {
     @Test
-    public void shouldCreateArrayList() {
+    public void createArrayList() {
         CreatingLists creatingLists = new CreatingLists();
         List<Integer> integers = creatingLists.createArrayList(100);
         List<Integer> expectedArray = IntStream.range(1, 101)

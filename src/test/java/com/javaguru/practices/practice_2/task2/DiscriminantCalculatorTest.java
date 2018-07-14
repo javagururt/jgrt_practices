@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class DiscriminantCalculatorTest {
 
     @Test
-    public void shouldCalculateDiscriminant() throws Exception {
+    public void calculate() {
         DiscriminantCalculator dc = new DiscriminantCalculator();
         assertEquals(0, dc.calculate(3,18,27));
         assertEquals(0, dc.calculate(16,-40,25));

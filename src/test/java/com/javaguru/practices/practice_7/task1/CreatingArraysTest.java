@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 public class CreatingArraysTest {
 
     @Test
-    public void shouldCreateIntegerArrayFilledWithRandomNumbers() {
+    public void integerArray() {
         CreatingArrays creatingArrays = new CreatingArrays();
         int n = 1000;
         Integer[] array = creatingArrays.integerArray(n);
@@ -26,7 +26,7 @@ public class CreatingArraysTest {
     }
 
     @Test
-    public void shouldCreateStringArrayInRangeAZ() {
+    public void stringArray() {
         CreatingArrays creatingArrays = new CreatingArrays();
         String[] actual = creatingArrays.stringArray();
         String[] expected = new String[]{

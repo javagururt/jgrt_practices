@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class CarTest {
 
     @Test
-    public void shouldAddGettersAndSetters() throws Exception {
+    public void getterAndSetters() throws Exception {
         Car car = new Car();
         car.getClass().getDeclaredMethod("getColor");
         car.getClass().getDeclaredMethod("getManufacturer");
@@ -18,7 +18,7 @@ public class CarTest {
     }
 
     @Test
-    public void shouldOverrideToString() throws Exception {
+    public void overrideToString() throws Exception {
         Car car = new Car();
         Method setColor = car.getClass().getDeclaredMethod("setColor", String.class);
         Method setManufacturer = car.getClass().getDeclaredMethod("setManufacturer", String.class);
@@ -30,7 +30,7 @@ public class CarTest {
     }
 
     @Test
-    public void shouldBeEquals() throws Exception {
+    public void overrideEquals() throws Exception {
         Car car = new Car();
         Method setColor = car.getClass().getDeclaredMethod("setColor", String.class);
         Method setManufacturer = car.getClass().getDeclaredMethod("setManufacturer", String.class);
