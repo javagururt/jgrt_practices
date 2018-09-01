@@ -20,4 +20,18 @@ public class CreatingListsTest {
                 .collect(Collectors.toList());
         assertEquals(expectedArray, integers);
     }
+
+    @Test
+    public void sortArrayList() {
+        List<Integer> integers = IntStream.range(1, 101)
+                .boxed()
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList());
+        CreatingLists creatingLists = new CreatingLists();
+        creatingLists.sortArrayList(integers);
+        List<Integer> expectedArray = IntStream.range(1, 101)
+                .boxed()
+                .collect(Collectors.toList());
+        assertEquals(expectedArray, integers);
+    }
 }

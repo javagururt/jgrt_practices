@@ -1,7 +1,5 @@
 package com.javaguru.practices.practice_8.task1;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 class CreatingLists {
@@ -25,9 +23,7 @@ class CreatingLists {
      * был отсортированный в возр. порядке список целых чисел
      */
 
-    List<Integer> sortArrayList(List<Integer> anotherList) {
-        List<Integer> integers = new ArrayList<>(anotherList);
-        Collections.sort(integers);
-        return integers;
+    void sortArrayList(List<Integer> integers) {
+
     }
 }
